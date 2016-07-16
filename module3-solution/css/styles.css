@@ -45,7 +45,6 @@ body {
 #nav-list a {
   color: black;
   background-color: white;
-  text-align: center;
   margin: 0px;
 }
 
@@ -59,6 +58,9 @@ body {
 
 .text-center {
   font-weight: bold;
+}
+
+#chiken, #beef, #sushi {
   padding-top: 5px;
   padding-bottom: 5px;
 }
