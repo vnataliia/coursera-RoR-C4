@@ -1,0 +1,76 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+.navbar-default .navbar-brand {
+ color: black;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.navbar-brand { /* Company name */
+  font-size: 1.75em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus, .navbar-toggle:focus .icon-bar {
+  background-color: grey;
+  border: 2px solid lightgray;
+}
+
+.navbar-nav {
+  margin: 0px -15px;
+  border: 1px solid black;
+}
+
+#nav-list li {
+  border-top: 1px
+  solid black;
+}
+
+#nav-list a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  margin: 0px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/* END HEADER */
+
+/** MAIN CONTENT **/
+
+.text-center {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#main-content {
+  width: auto;
+  margin: 20px 20px 20px 20px;
+}
+
+.col-xs-12 {
+  background-color: gray;
+  margin-bottom: 20px;
+
+}
+/* END MAIN CONTENT */
